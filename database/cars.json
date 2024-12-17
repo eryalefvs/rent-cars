@@ -1,0 +1,23 @@
+[
+    {
+        "id": "97b44ec5-6d41-4abc-b56a-4165c4594a79",
+        "name": "A8",
+        "releaseYear": 2024,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "d73888c0-7db2-4d3c-b41f-c693b9c0ed53",
+        "name": "Model T",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "6eb8afdf-2454-43bc-b6f2-9e3d61afcf26",
+        "name": "Durango",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    }
+]

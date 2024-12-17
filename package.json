@@ -1,0 +1,23 @@
+{
+  "name": "tdd_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel test/unitTests/*.test.js",
+    "test:cov": "npx nyc npx mocha -w --parallel test/unitTests/*.test.js",
+    "seed": "node ./seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@sinonjs/referee-sinon": "^12.0.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "supertest": "^7.0.0"
+  }
+}
